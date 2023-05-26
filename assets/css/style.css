@@ -6,6 +6,8 @@ body {
     color: #444;
     font-weight: 400;
 }
+/* ---------- */
+
 p {
     color: #444;
     font-weight: 400;
@@ -50,7 +52,7 @@ h3 {
     vertical-align: middle;
 }
 img {
-    max-width: 100%;
+    max-width: 25%;
 }
 .ptb-100 {
     padding-top: 100px;
@@ -352,7 +354,7 @@ img {
 .main-nav {
     background-color: #fff;
     top: 0;
-    position: inherit;
+    position: fixed;
     left: 0;
     padding: 0;
     width: 100%;
@@ -982,13 +984,13 @@ img {
     margin-bottom: 35px;
 }
 .item-bg1 {
-    background-image: url(../images/home-one/home-one-img1.jpg);
+    background-image: url(../images/slider\ 1.jpg);
 }
 .item-bg2 {
-    background-image: url(../images/home-one/home-one-img2.jpg);
+    background-image: url(../images/slider2.jpg);
 }
 .item-bg3 {
-    background-image: url(../images/home-one/home-one-img3.jpg);
+    background-image: url(../images/slider3.jpg);
 }
 .banner-area {
     position: relative;
@@ -996,7 +998,7 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/home-two.jpg);
+    background-image: url(../images/slider4.jpg);
 }
 .banner-area::before {
     content: "";
@@ -1047,6 +1049,10 @@ img {
     max-width: 680px;
     line-height: 1.2;
     margin-bottom: 20px;
+}
+.blog-img a{
+    margin-top: 5px;
+    text-align: center;
 }
 .banner-content p {
     font-size: 17px;
@@ -3694,6 +3700,7 @@ img {
 }
 .blog-card .blog-img img {
     border-radius: 5px;
+    min-width: 90%;
 }
 .blog-card .blog-img .blog-tag {
     background-color: #ffc221;
