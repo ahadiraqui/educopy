@@ -15,7 +15,7 @@ $("#frach_register").on("submit", function(e)
       type : "POST",
       cache:false,
       data :formData,
-      contentType : false,  
+      contentType : false, 
       processData: false,
       success:function(response)
       {  
